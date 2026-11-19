@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP      = '34.228.82.98'
+        SERVER_IP      = '54.87.11.26'
         SSH_CREDENTIAL = 'Ramdas'
         REPO_URL       = 'https://github.com/MuleRamdas0186/nodejs-app'
         BRANCH         = 'main'
         REMOTE_USER    = 'ubuntu'
-        REMOTE_PATH    = '/home/ubuntu/ nodejs-app>'
+        REMOTE_PATH    = '/home/ubuntu/nodejs-app'
     }
     
     
